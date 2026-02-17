@@ -1,0 +1,194 @@
+body{
+    background-image: url("https://wallpapercrafter.com/desktop1/570961-azul-mar-naturaleza-nubes-oceano-1080P.jpg");
+}
+
+
+#conteudo {
+    background-color: #edf1e5;
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    height: 60em;
+    border-radius: 20px;
+}
+
+main{
+        height: 720px;
+        background-color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+        border-radius: 30px;
+        overflow-y: scroll;
+}
+
+
+h1 {
+    padding: 20px 0 10px 80px;
+    font-family:'oswald';
+    font-style: bold;
+    color: #578b00;
+    font-size: 45px;
+    text-shadow: black 1px 3px 3px;
+}
+
+
+h2 {
+    font-family: "Oswald";
+    color: #557f0e;
+    padding-left: 50px;
+}
+
+
+#catalogo {
+    background-color: #cbe1b1;
+    text-align: center;
+    border-radius: 25px;
+    height: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
+
+#catalogo a {
+    display: inline-block;
+    padding: 13px 50px;
+}
+
+#catalogo a:hover {
+    color: orange;
+}
+
+p{
+    font-family: "poppins";
+    padding-left: 30px;
+
+}
+
+#paragrafo {
+    position: relative;
+    left: 550px;
+    font-size: 15px;
+    bottom: 50px;
+}
+
+#paubr {
+    position: relative;
+    left: 550px;
+    bottom: 50px;
+}
+
+#paragrafo3 {
+    position: relative;
+    left: 550px;
+}
+
+#sering {
+    position: relative;
+    left: 550px;
+}
+
+#catalogo a {
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'open sans';
+    text-decoration: none;
+
+
+}
+
+
+#textos {
+    display: inline-block;
+    width: 500px;
+
+}
+
+#imagens-direita {
+    display: inline-block;
+}
+
+#siri {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 175px;
+    top: 10px;
+}
+
+
+#tartaruga {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    bottom: 5px;
+}
+
+
+
+#camarao {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 1420px;
+}
+
+#peixe {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1480px;
+    top: 400px;
+}
+
+#regia {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1450px;
+    top: 750px;
+
+}
+
+#vitoriaregia {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 10px solid #eaf8da;
+    bottom: 1340px;
+    left: 570px;
+}
+
+#paubrasil {
+    position: relative;
+    width: 450px;
+    height: 250px;
+    border: 10px solid #eaf8da;
+    bottom: 1000px;
+    right: 480px;
+
+
+}
+
+#castanheira {
+    position: relative;
+    width: 450px;
+    height: 250px;
+    border: 10px solid #eaf8da;
+    bottom: 930px;
+    left: 560px;
+
+}
+
+#seringueira {
+    position: relative;
+    width: 450px;
+    height: 250px;
+    border: 10px solid #eaf8da;
+    bottom: 600px;
+    right: 430px;
+
+}

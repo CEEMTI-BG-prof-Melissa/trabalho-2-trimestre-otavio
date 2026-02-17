@@ -1,0 +1,232 @@
+body{
+    background-image: url("https://wallpapercrafter.com/desktop1/570961-azul-mar-naturaleza-nubes-oceano-1080P.jpg");
+}
+
+
+#conteudo {
+    background-color: #edf1e5;
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    height: 60em;
+    border-radius: 20px;
+}
+
+main{
+        height: 720px;
+        background-color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+        border-radius: 30px;
+        overflow-y: scroll;
+}
+
+
+h1 {
+    padding: 20px 0 10px 80px;
+    font-family:'oswald';
+    font-style: bold;
+    color: #578b00;
+    font-size: 45px;
+    text-shadow: black 1px 3px 3px;
+}
+
+
+h2 {
+    font-family: "Oswald";
+    color: #557f0e;
+    padding-left: 50px;
+}
+
+
+#catalogo {
+    background-color: #cbe1b1;
+    text-align: center;
+    border-radius: 25px;
+    height: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
+
+#catalogo a {
+    display: inline-block;
+    padding: 13px 50px;
+}
+
+#catalogo a:hover {
+    color: orange;
+}
+
+p{
+    font-family: "poppins";
+    padding-left: 50px;
+}
+
+
+
+#catalogo a {
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'open sans';
+    text-decoration: none;
+
+
+}
+
+
+#textos {
+    display: inline-block;
+    width: 500px;
+
+}
+
+
+#siri {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 175px;
+    top: 10px;
+}
+
+
+#tartaruga {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    bottom: 5px;
+}
+
+
+
+#camarao {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 1420px;
+}
+
+#peixe {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1480px;
+    top: 400px;
+}
+
+#regia {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1450px;
+    top: 750px;
+
+}
+
+label {
+    font-family: 'Oswald';
+    color: #557f0e;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+
+#Enviar {
+    margin-left: 220px;
+    background-color: #cbe1b1;
+    border: 10px solid #cbe1b1;
+    border-radius: 10px;
+    font-family: 'Poppins';
+}
+
+
+#limpar {
+    margin-left: 50px;
+    background-color: #cbe1b1;
+    border: 10px solid #cbe1b1;
+    border-radius: 10px;
+    font-family: 'Poppins';
+}
+
+textarea {
+    margin-left: 45px;
+}
+
+#NomeCompleto {
+    background-color: #cbe1b1;
+    border-radius: 20px;
+    padding-right: 150px;
+    
+}
+
+#Email {
+    background-color: #cbe1b1;
+    border-radius: 20px;
+    border: #cbe1b1;
+    padding-right: 150px;
+    
+}
+
+#DatadeNascimento {
+    background-color: #cbe1b1;
+    border-radius: 20px;
+    border: #cbe1b1;
+    
+}
+
+#estado {
+    background-color: #cbe1b1;
+    border-radius: 20px;
+    border: #cbe1b1;
+    padding-right: 150px;
+}
+
+#textodigitado {
+    background-color: #cbe1b1;
+    border-radius: 20px;
+    border: #cbe1b1;
+    padding-right: 150px;
+}
+
+#opniao {
+    background-color: #cbe1b1;
+    border-radius: 20px;
+    border: #cbe1b1;
+    padding-right: 150px;
+}
+
+#acao1 {
+    position: relative;
+    left: 50px;
+}
+
+#acao2 {
+    position: relative;
+    left: 50px;
+}
+
+#acao3 {
+    position: relative;
+    left: 50px;
+}
+
+#acao5 {
+    position: relative;
+    left: 50px;
+}
+
+#acao6 {
+    position: relative;
+    left: 50px;
+}
+
+#acao9 {
+    position: relative;
+    left: 50px;
+}

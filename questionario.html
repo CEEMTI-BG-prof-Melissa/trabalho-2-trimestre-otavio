@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lan="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>ILHA DAS CAIEIRAS</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="questionario.css">
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <img id="siri" src="siri.png" alt="siri1">
+        <img id="tartaruga" src="tartaruga.png" alt="tartaruga1">
+        <img id="camarao" src="camarao.png" alt="camarao1">
+        <img id="peixe" src="peixin.png" alt="peixe1">
+        <img id="regia" src="regia.png" alt="regia1">
+
+        <div id="conteudo">
+            <header>
+                <h1>ILHA DAS CAIEIRAS</h1>
+
+                <div id="catalogo">
+                    <a href="index.html">Início</a>
+                    <a href="fauna.html">Fauna</a>
+                    <a href="flora.html">Flora</a>
+                    <a href="questionario.html">Questionário</a>
+                </div>
+            </header>
+
+            <main>
+                <div id="textos">
+                    <form action="#" method="get">
+                    
+                    <p> Este questionário tem por objetivo aprofundar a compreensão sobre a cultura oceânica. 
+                        A pesquisa pretende captar percepções de moradores e visitantes sobre a valorização dessas manifestações
+                        tradicionais, identificar desafios atuais (como urbanização e impactos ambientais) 
+                        e propor caminhos que fortaleçam a preservação desse patrimônio imaterial de forma sustentável e inclusiva.
+                    </p>
+                    <label for="Nome Completo: " > Nome Completo: </label>
+                    <input type="text" minlength="5" maxlength="125" id="NomeCompleto" name="NomeCompleto" required >
+                    <br>
+                    <br>
+                    <label for="E-mail"> E-mail: </label> 
+                    <input type ="email" id="Email" name="Email" required>
+                    <br>
+                    <br>
+                    <label for="DatadeNascimento:"> Data de Nascimento: </label>
+                    <input type="date" min="1901-02-02" max="2025-11-30" id="DatadeNascimento" name="DatadeNascimento" required>
+                    <br>
+                    <br>
+                    <label for="estado"> Estado Onde reside: </label>  
+                    <select id="estado" required>
+                        <option  id="Acre" value="Acre"> Acre </option>
+                        <option  id="Alagoas" value="Alagoas"> Alagoas </option>
+                        <option  id="Amapa" value="Amapá"> Amapá </option>
+                        <option  id="Amazonas" value="Amazonas"> Amazonas</option>
+                        <option  id="Bahia" value="Bahia"> Bahia  </option>
+                        <option  id="Ceara" value="Ceará"> Ceará </option>
+                        <option  id="DistritoFederal" value="Distrito Federal"> Distrito Federal </option>
+                        <option  id="EspíritoSanto" value="Espírito Santo"> Espírito Santo   </option>
+                        <option  id="Goias" value="Goiás"> Goiás  </option>
+                        <option  id="Maranhao" value="Maranhão"> Maranhão </option>
+                        <option  id="MatoGrosso" value="Mato Grosso"> Mato Grosso </option>
+                        <option  id="MatoGrossodoSul" value="Mato Grosso do Sul"> Mato Grosso do Sul </option>
+                        <option  id="MinasGerais" value="Minas Gerais"> Minas Gerais </option>
+                        <option  id="Para" value="Pará"> Pará  </option>
+                        <option  id="Paraiba" value="Paraíba"> Paraíba  </option>
+                        <option  id="Parana" value="Paraná"> Paraná  </option>
+                        <option  id="Pernambuco" value="Pernambuco"> Pernambuco  </option>
+                        <option  id="Piaui" value="Piauí"> Piauí  </option>
+                        <option  id="RiodeJaneiro" value="Rio de Janeiro"> Rio de Janeiro </option>
+                        <option  id="RioGrandedoNorte" value="Rio Grande do Norte"> Rio Grande do Norte  </option>
+                        <option  id="RioGrandedoSul" value="Rio Grande do Sul"> Rio Grande do Sul  </option>
+                        <option  id="Rondonia" value="Rondônia"> Rondônia  </option>
+                        <option  id="Roraima" value="Roraima"> Roraima  </option>
+                        <option  id="SantaCatarina" value="Santa Catarina"> Santa Catarina  </option>
+                        <option  id="SaoPaulo" value="São Paulo"> São Paulo </option>
+                        <option  id="Sergipe" value="Sergipe"> Sergipe  </option>
+                        <option  id="Tocantins" value="Tocantins"> Tocantins  </option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="pergunta"> Você já ouviu falar sobre Cultura Oceânica?  </label>
+                    <br>
+                    <label for="RespostaSim"> Sim </label>
+                    <input type="radio" id="RespostaSim" name="pergunta" value="Sim" required>
+                    <label for="RespostaNao"> Não </label>
+                    <input type="radio" id="RespostaNao" name="pergunta" value="Não" required>
+                    <br>
+                    <br>
+                    <label for="textodigitado"> Qual sua relação com o mar? </label> 
+                    <br>
+                    <br>
+                    <!--Campo de uso obrigatório Não está funcionando.-->
+                    <textarea id="textodigitado" rows="5" cols="50" required> </textarea> 
+                    <br>
+                    <br>
+                    <label for="acoes"> Quais dessas ações você já praticou? </label>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="acao1" name="acao1" value="Reutilizei plásticos e embalagens para reduzir o lixo" >
+                    <label for="acao1" > Reutilizei plásticos e embalagens para reduzir o lixo </label>
+                    <br>
+                    <input type="checkbox" id="acao2" name="acao2" value="Evitei descartar lixo em praias, rios ou mares">
+                    <label for="acao2" > Evitei descartar lixo em praias, rios ou mares </label>
+                    <br>
+                    <input type="checkbox" id="acao3" name="acao3" value="Usei sacolas reutilizáveis ao fazer compras">
+                    <label for="acao3" > Usei sacolas reutilizáveis ao fazer compras </label>
+                    <br> 
+                    <input type="checkbox" id="acao5" name="acao5" value="Optei por meios de transporte menos poluentes" >
+                    <label for="acao5"> Optei por meios de transporte menos poluentes </label> 
+                    <br>
+                    <input type="checkbox" id="acao6" name="acao6" value="Economizei água no dia a dia " >
+                    <label for="acao6"> Economizei água no dia a dia  </label> 
+                    <br> 
+                    <input type="checkbox" id="acao9" name="acao9" value="Apoiei projetos ou ONGs ligadas à conservação marinha" >
+                    <label for="acao9"> Apoiei projetos ou ONGs ligadas à conservação marinha </label> 
+                    <br>
+                    <br>
+                    <label for="Envie uma sugestão de iniciativa oceânica."> Envie uma sugestão de iniciativa oceânica. </label>
+                    <br>
+                    <br>
+                    <textarea id="opniao" rows="5" cols="50" > </textarea> 
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar" id="Enviar">
+                    <input type="reset" value="Limpar" id="limpar">
+                    </form>
+                </div>
+            </main>
+        </div> 
+    </body>
+</html>
